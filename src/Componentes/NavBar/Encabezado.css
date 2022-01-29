@@ -1,0 +1,22 @@
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: beige;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.header-nav {
+    padding-right: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    width: 20%;
+}
