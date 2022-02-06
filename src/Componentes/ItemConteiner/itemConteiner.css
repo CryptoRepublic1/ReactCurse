@@ -6,3 +6,10 @@
 hr {
     width: 40%;
 }
+
+.Productos{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+
+}
