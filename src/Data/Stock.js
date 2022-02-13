@@ -16,27 +16,27 @@ export const stock = [
       categoria : "Zapatillas"
   },
   {
-      nombre: 'Producto 3 ',
+      nombre: 'Polera Negra',
       id:"3",
-      desc: ' Lorem ipsum producto 1 ',
+      desc: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       precio: 1500,
-      imagen: "html",
+      imagen: require("../Img/poleraNegra.jpeg"),
       categoria : "Poleras"
   },
   {
-      nombre: 'Producto 4 ',
+      nombre: 'Polera Gris',
       id:"4",
-      desc: ' Lorem ipsum producto 1 ',
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ',
       precio: 1500,
-      imagen: "html",
+      imagen: require("../Img/poleraGris.jpeg"),
       categoria : "Poleras"
   },
   {
-      nombre: 'Producto 5',
+      nombre: 'Polera Blanca',
       id:"5",
-      desc: ' Lorem ipsum producto 1 ',
+      desc: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ',
       precio: 1500,
-      imagen: "html",
+      imagen: require("../Img/poleraBlanca1.jpg"),
       categoria : "Poleras"
       
   },
@@ -66,3 +66,5 @@ export const stock = [
     
 },
 ]
+
+

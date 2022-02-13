@@ -25,10 +25,6 @@ export const ItemDetailContainer =function(){
 useEffect(async() => {
     setLoading(true)
     const res = await pedirDatos()
-    console.log(res);
-    console.log(itemId);
-
-
     const item2 = await res.find((el) => el.id === itemId)
 
     setItem(item2)
@@ -40,13 +36,7 @@ useEffect(async() => {
 
 return(
     <>
-    {/* <div>
-        {item.map((el) => 
-            <DisplayProducts nombre = {el.nombre} desc = {el.desc} precio = {el.precio} id={el.id} /> )}
-       </div> */}
-
      <ProductPage {...item}/>
-    
     </>
   )
  

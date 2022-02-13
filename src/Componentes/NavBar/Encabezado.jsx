@@ -12,8 +12,7 @@ export const Encabezado2 = function(){
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand href="#home">
-
+  <Navbar.Brand  as={Link} to="/">
     logo
       <img
         src="/logo.svg"
@@ -24,10 +23,10 @@ export const Encabezado2 = function(){
       />
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-
-      <Nav.Link  as={Link} to="/productos"> Productos</Nav.Link>
+      <Nav.Link  as={Link} to="/"> Productos</Nav.Link>
       <NavDropdown title="Colecciones" id="collasible-nav-dropdown">
         <NavDropdown.Item as={Link} to="/productos/Zapatillas">Zapatillas</NavDropdown.Item>
         <NavDropdown.Item as={Link} to="/productos/Poleras">Poleras</NavDropdown.Item>

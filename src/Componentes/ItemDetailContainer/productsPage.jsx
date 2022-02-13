@@ -1,19 +1,24 @@
+import { Button } from "@mui/material"
 import "./ProductPage.css"
 
 
-export const ProductPage = function({id, nombre, img, desc, precio, stock, categoria}){
+export const ProductPage = function({id, nombre, imagen, desc, precio, stock, categoria}){
 
   return (
+    
     <div className="row paginaProducto">
       <div className="col fotosProducto">
-        <h3> hola</h3>
-        {console.log(nombre)}
+      
+      <img src={imagen}/>
+
       </div>
       <div className="col detallesProducto">
-       
+            {console.log(imagen)}
             <h3>{nombre}</h3>
             <p>{desc}</p>
             <h5>Precio: ${precio}</h5>
+
+            <Button> Agregar al carrito</Button>
 
             {/* CONTADOR */}
         

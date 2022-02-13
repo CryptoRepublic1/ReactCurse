@@ -11,7 +11,7 @@ function App() {
         <BrowserRouter>
             <Encabezado2/>
             <Routes>
-                <Route path="/productos" element={ <ItemConteiner greating = "Todos los Productos" />}/>          
+                <Route path="/" element={ <ItemConteiner greating = "Todos los Productos" />}/>          
                 <Route path='/productos/:catId' element={ <ItemConteiner greating = {"Categoria"}/> }/>
                 <Route path='/detail/:itemId' element={ <ItemDetailContainer/> }/>
 
