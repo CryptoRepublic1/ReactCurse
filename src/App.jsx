@@ -23,8 +23,7 @@ function App() {
              </Routes>
         </BrowserRouter>
     </CartProvider>
-     
-
+    
     {/* <ItemConteiner greating = "hola soy coder" /> */}
     </>
     );

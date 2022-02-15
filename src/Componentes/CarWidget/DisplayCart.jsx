@@ -36,13 +36,14 @@ export const DisplayCart =  function() {
           adjective
         </Typography>
         <Typography variant="body2">
-          well meaning and kindly.
+          well meaning and kindly. <h1></h1>
           <br />
           {'"a benevolent smile"'}
         </Typography>
       </CardContent>
       <CardActions>
         <Button size="small">Learn More</Button>
+
       </CardActions>
     </Card>
   );
