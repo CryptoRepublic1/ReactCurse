@@ -5,15 +5,17 @@ export const stock = [
       desc: ' Lorem ipsum producto 1 ',
       precio: 1500,
       imagen: "html",
-      categoria : "Zapatillas"
-  },
+      categoria : "Zapatillas",
+      stock : 10
+      },
   {
       nombre: 'Producto 2 ',
       id:"2",
       desc: ' Lorem ipsum producto 1 ',
       precio: 1500,
       imagen: "html",
-      categoria : "Zapatillas"
+      categoria : "Zapatillas",
+      stock : 10
   },
   {
       nombre: 'Polera Negra',
@@ -21,7 +23,8 @@ export const stock = [
       desc: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       precio: 1500,
       imagen: require("../Img/poleraNegra.jpeg"),
-      categoria : "Poleras"
+      categoria : "Poleras",
+      stock : 10
   },
   {
       nombre: 'Polera Gris',
@@ -29,7 +32,8 @@ export const stock = [
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ',
       precio: 1500,
       imagen: require("../Img/poleraGris.jpeg"),
-      categoria : "Poleras"
+      categoria : "Poleras",
+      stock : 10
   },
   {
       nombre: 'Polera Blanca',
@@ -37,7 +41,8 @@ export const stock = [
       desc: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ',
       precio: 1500,
       imagen: require("../Img/poleraBlanca1.jpg"),
-      categoria : "Poleras"
+      categoria : "Poleras",
+      stock : 10
       
   },
   {
@@ -46,7 +51,8 @@ export const stock = [
     desc: ' Lorem ipsum producto 1 ',
     precio: 1500,
     imagen: "html",
-    categoria : "Polerones"
+    categoria : "Polerones",
+    stock : 10
     
 },  {
     nombre: 'Producto 7',
@@ -54,7 +60,8 @@ export const stock = [
     desc: ' Lorem ipsum producto 1 ',
     precio: 1500,
     imagen: "html",
-    categoria : "Polerones"
+    categoria : "Polerones",
+    stock : 10
     
 },  {
     nombre: 'Producto 7',
@@ -62,7 +69,8 @@ export const stock = [
     desc: ' Lorem ipsum producto 1 ',
     precio: 1500,
     imagen: "html",
-    categoria : "Polerones"
+    categoria : "Polerones",
+    stock : 10
     
 },
 ]

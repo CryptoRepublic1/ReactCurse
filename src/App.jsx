@@ -1,27 +1,29 @@
-import { Encabezado, Encabezado2 } from "./Componentes/NavBar/Encabezado";
+import {  Encabezado2 } from "./Componentes/NavBar/Encabezado";
 import { ItemConteiner } from "./Componentes/ItemConteiner/itemConteiner";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Navigate, Route,Routes } from "react-router-dom";
-import { DisplayCart } from "./Componentes/CarWidget/DisplayCart"
+import { BrowserRouter, Route,Routes } from "react-router-dom";
 import { ItemDetailContainer } from "./Componentes/ItemDetailContainer/ItemDetailContainer";
+import {  CartProvider } from "./Componentes/context/cartContext";
+import { CartDisplay } from "./Componentes/cartDisplay/cartDisplay";
 
 function App() {
+    
     return ( 
     <>
+    <CartProvider>
         <BrowserRouter>
             <Encabezado2/>
             <Routes>
                 <Route path="/" element={ <ItemConteiner greating = "Todos los Productos" />}/>          
                 <Route path='/productos/:catId' element={ <ItemConteiner greating = {"Categoria"}/> }/>
                 <Route path='/detail/:itemId' element={ <ItemDetailContainer/> }/>
-
-
-
+                <Route path='/cart' element={<CartDisplay/>}/>
                 {/* <Route path="*" element={<Navigate to="/"/>}/> */}
                 <Route/>
              </Routes>
-       
         </BrowserRouter>
+    </CartProvider>
+     
 
     {/* <ItemConteiner greating = "hola soy coder" /> */}
     </>

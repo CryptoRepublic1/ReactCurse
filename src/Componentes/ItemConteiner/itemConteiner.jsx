@@ -1,12 +1,8 @@
 import "./itemConteiner.css";
-import { Clicker } from "../Clicker/clicker";
 import { useEffect, useState } from "react";
 import { stock } from "../../Data/Stock";
 import { DisplayProducts } from "../CarWidget/DisplayCart";
-import { Button } from "@mui/material";
-import { Encabezado2 } from "../NavBar/Encabezado";
 import { useParams } from "react-router-dom";
-import { ProductPage } from "../ItemDetailContainer/productsPage";
 import { Spinner } from "react-bootstrap";
 
 export const ItemConteiner = function({ greating }) {
@@ -62,8 +58,8 @@ export const ItemConteiner = function({ greating }) {
                 Loading 
                     ? <Spinner animation="border" className="Spinner1" />
                     :  <div className="Productos">
-                    {productos.map((el) => 
-                        <DisplayProducts nombre = {el.nombre} desc = {el.desc} precio = {el.precio} id={el.id} /> )}
+                    {productos.map((el, i) => 
+                        <DisplayProducts key={i} nombre = {el.nombre} desc = {el.desc} precio = {el.precio} id={el.id} /> )}
                    </div>
     } 
 
